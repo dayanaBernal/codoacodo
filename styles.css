@@ -9,12 +9,18 @@
 }
 .nav-link{
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-family: serif;
     margin-right: 30px;
 }
-.nav-link:hover{
+.nav-icon{
     color: white;
+    font-size: 17px;
+    font-family: serif;
+    margin-left: 15px;
+}
+.nav-link:hover{
+    color: rgb(152, 226, 108);
 }
 .navbar-brand{
     padding-left: 30px;
@@ -23,6 +29,15 @@
 footer{
     background-color: black;
     font-size: small;
+}
+
+.pie{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
 }
 .nav-link-footer{
     font-size: small;
@@ -36,4 +51,7 @@ footer{
 }
 .social{
     font-family: serif;
+}
+h1{
+    color: yellowgreen;
 }
